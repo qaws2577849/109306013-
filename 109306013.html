@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+	var value;
+	value=Math.floor(Math.random()*10+1);
+	var name1;
+    name1=parseInt(name);
+	var name=get(name1);
+
+	function get(x){
+		x=window.prompt("Please guess a number from 1 to 10");
+	}
+	while(name1!=value){
+		 name1=parseInt(name);
+         name=window.prompt("Please guess again");
+	}
+	
+		 document.writeln("<p>Congratulation!</p>");
+
+   
+
+</script>
+</body>
+</html>
